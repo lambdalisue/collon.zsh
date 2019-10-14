@@ -237,7 +237,7 @@ prompt_collon_setup() {
 
   # prompt_subst   - http://www.csse.uwa.edu.au/programming/linux/zsh-doc/zsh_17.html#IDX501
   # prompt_percent - http://www.csse.uwa.edu.au/programming/linux/zsh-doc/zsh_17.html#IDX499
-  prompt_opts=(subst percent)
+  prompt_opts=(subst percent cr)
 
   collon::configure_vcsstyles
 
